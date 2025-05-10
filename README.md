@@ -1,9 +1,4 @@
----
-layout: post
-title: "RISC-V Programming"
-permalink: /projects/riscV
----
-
+  
 # 프로젝트 개요
 
 이 프로젝트는 RISC-V 기본 명령어(ADD, SUB, ADDI, …) 및 추가 명령어(EXIT)를 해석하여 32비트 기계어로 변환하고, 명령어가 실행되는 동안의 PC(Program Counter) 변화를 추적하는 프로그램을 구현하는 것이 목표입니다.
