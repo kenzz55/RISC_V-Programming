@@ -50,7 +50,7 @@ permalink: /projects/riscV
 
   
 ## 간단한 실행 예시
-아래는 예시 파일 `test1.s`을 입력받았을 때, 생성되는 출력 파일 예시입니다(*.o, *.trace). 실제 코드 및 테스트 파일은 [GitHub 링크](https://github.com/kenzz55/RISC_V-Programming)에서 확인 가능합니다.
+아래는 예시 파일 `test1.s`을 입력받았을 때, 생성되는 출력 파일 예시입니다(*.o, *.trace).  
 
 ```shell
 >> Enter Input File Name: test1.s  
@@ -69,11 +69,3 @@ test1.trace
 - *.o 파일에는 변환된 32비트 기계어가 한 줄에 하나씩 기록됩니다.
 - *.trace 파일에는 명령어 실행 시 변화된 PC 값이 순서대로 기록됩니다.
 
-
-## 마무리 및 참고 
-
-RISC-V 명령어 구조와 분기/점프 명령어에 따른 PC 변화와 레지스터 값 업데이트 로직을 직접 구현해 보았습니다.
-
-자세한 소스 코드(C 파일)와 테스트 결과(*.s, *.o, *.trace)는 모두 GitHub에 업로드해 두었으니, 구체적인 로직이나 구현 세부 사항이 궁금하신 분들은 참고해 주세요.
-
-[RISC-V 프로그래밍 소스코드 및 테스트 파일](https://github.com/kenzz55/RISC_V-Programming)
